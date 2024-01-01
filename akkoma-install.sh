@@ -4,7 +4,7 @@ adduser --system --shell  /bin/false --home /opt/akkoma akkoma
 # Set the flavour environment variable to the string you got in Detecting flavour section.
 # For example if the flavour is `amd64-musl` the command will be
 #     export FLAVOUR="amd64-musl"
-export FLAVOUR="<replace-this-with-the-correct-flavour-string>"
+export FLAVOUR="amd64"
 
 # Make sure the SHELL variable is set
 export SHELL="${SHELL:-/bin/sh}"
